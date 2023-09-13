@@ -1,0 +1,181 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color:#fff;
+    background: linear-gradient(to right, #363795, #c73485)
+}
+
+/* General styles */
+
+.page-container {
+    width: 500px;
+    max-width: 100%;
+    padding: 16px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+section{
+    margin-bottom: 32px;
+}
+
+h2.section-title {
+    font-size: 1,5rem;
+    margin-bottom: 16px;
+
+}
+
+/* Header styles */
+header {
+    background-image: url("cover\ nou.jpg");
+    height:250px;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* Profile styles */
+
+.profile {
+    margin-top: -75px;
+    text-align: center;
+}
+
+.profile-image {
+  width: 120px;
+  height: 100px;
+ border: solid 3px #fff;
+    border-radius: 55%;
+    display: inline-block;
+}
+
+.profile-image img {
+    max-width: 100%;
+    border-radius: 55%;
+}
+
+.profile-details {
+    font-size: 1rem;
+    margin: 24px 0;
+}
+
+
+.profile-details h1 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.tags span {
+    font-size: 0,875rem;
+    background-color: violet;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* Project styles */
+
+.project {
+    font: size 16px;
+    background-color: #7f3197;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    position: relative;
+    overflow: hidden;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+.project .project-title {
+    padding: 16px;
+}
+
+.project-details {
+    background-color: #7f3197;
+    position: absolute;
+    top:0;
+    right:0;
+    bottom: 0;
+    left:0;
+    padding: 16px;
+    display: none;
+}
+
+.project-details .btn-outline {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border: solid 2px white;
+    position:absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    border-radius: 5px;
+}
+
+
+.project-details .btn-outline:hover {
+ color: #7f3197;
+ background-color: #fff;
+}
+
+.project:hover .project-details {
+    display: block;
+}
+
+/* Profile links style */
+
+
+.profile-links {
+    list-style: none;
+}
+
+.profile-links li a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5c1983;
+    padding: 8px;
+    display: inline-block;
+    margin: 8px 0;
+    border-radius: 2px;
+
+}
+
+.profile-links li a {
+    background-color: #714a7c;
+}
+
+/* Footer style */
+
+footer {
+    font-size: 1rem;
+    text-align: center;
+    padding: 16px 0;
+}
+
+/* Media Query */
+
+@media screen and(min-width: 680px) {
+
+    .project {
+        width: 100%;
+overflow: hidden;
+    }
+
+  
+}
+
+/* extra */
+
+#pagina-principala:default {
+    display: inline-block;
+}
