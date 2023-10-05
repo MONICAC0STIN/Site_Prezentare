@@ -1,2 +1,2 @@
 # Site_Prezentare
-Siteul meu de prezentare
+Acesta este siteul meu de prezentare care cuprinde si proiectele pe care le-am facut.
